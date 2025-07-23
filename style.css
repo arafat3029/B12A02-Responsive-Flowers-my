@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* nav secction */
+*{
+    background-color: rgb(245, 248, 255);
+}
+.nav-section {
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.link-bold {
+    color: #252432;
+}
