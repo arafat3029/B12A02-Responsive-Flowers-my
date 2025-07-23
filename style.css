@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
-/* nav secction */
+/* commone css */
+.inter {
+     font-family: "Inter", sans-serif;
+}
+.noto-serif {
+    font-family: "Noto Serif", serif;
+}
+
+/* nav section */
 *{
     background-color: rgb(245, 248, 255);
 }
@@ -11,4 +19,23 @@
 }
 .link-bold {
     color: #252432;
+}
+
+
+
+/* benner section */
+.banner-left {
+    margin-top: 80px;
+}
+.banner-left h1 {
+    color: #000000;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-left samp {
+    color: #E95A08;
+    font-weight: bold;
+}
+.banner-left {
+    font-size: 1.3rem;
 }
