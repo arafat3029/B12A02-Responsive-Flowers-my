@@ -20,8 +20,31 @@
 .link-bold {
     color: #252432;
 }
+header {
+    margin-top: 2rem;
+    margin: auto;
+}
+/* .................. */
 
 
+
+.none {
+    display: none;
+}
+
+
+/* .................. */
+
+
+/* nav section */
+.nav-section {
+    display: flex;
+    max-width: 1280px;
+}
+.list-parent {
+    display: flex;
+    gap: 3rem;
+}
 
 /* benner section */
 .banner-left p {
@@ -179,4 +202,69 @@ footer .section-footer {
 }
 .footer-logo {
     display: flex;
+}
+
+/* Resoponsive */
+@media screen and (max-width:576px) {
+    /* nav section */
+
+    .nav-section {
+        max-width: 85%;
+        margin: auto;
+    }
+
+    /* banner section */
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        margin: auto;
+    }
+    .banner h1{
+        padding: 2rem;
+        font-size: xx-large;
+    }
+    .banner p {
+        padding: 2rem;
+        font-size: xx-large;
+        margin-top: -3rem;
+    }
+
+    /* Our Plants section */
+    p.inter {
+    max-width: 85%;
+    margin: auto;
+    }
+    h1.noto-serif {
+    font-size: 3rem;
+    }
+
+    samp.noto-serif {
+    font-size: 3rem;
+    }
+    .inter p {
+        max-width: 85%;
+        margin: auto;
+    }
+    .all-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    /* margin-top: 4.5rem; */
+    max-width: 85%;
+    margin: auto;
+    }
+    .shears-btn a {
+        padding: 0px 33px;
+        font-size: 18px;
+    }
+
+    /* Lover Plants Sectoin */
+    .plants-lover-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    }
+    
+
 }
