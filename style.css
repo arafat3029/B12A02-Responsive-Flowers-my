@@ -232,27 +232,27 @@ footer .section-footer {
 
     /* Our Plants section */
     p.inter {
-    max-width: 85%;
-    margin: auto;
+        max-width: 85%;
+        margin: auto;
     }
     h1.noto-serif {
-    font-size: 3rem;
+        font-size: 3rem;
     }
 
     samp.noto-serif {
-    font-size: 3rem;
+        font-size: 3rem;
     }
     .inter p {
         max-width: 85%;
         margin: auto;
     }
     .all-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    /* margin-top: 4.5rem; */
-    max-width: 85%;
-    margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        /* margin-top: 4.5rem; */
+        max-width: 85%;
+        margin: auto;
     }
     .shears-btn a {
         padding: 0px 18px;
@@ -260,11 +260,33 @@ footer .section-footer {
     }
 
     /* Lover Plants Sectoin */
+
     .plants-lover-section {
-    display: flex;
-    flex-direction: column;
-    max-width: 85%;
+        display: flex;
+        flex-direction: column;
+        max-width: 85%;
     }
     
+    /* footer section */
+    section.section-footer {
+        max-width: 85%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .logo-img-footer {
+        margin-bottom: 15px;
+    }
+    .section-footer p {
+        margin-bottom: 20px;
+    }
+    .section-footer div {
+        display: grid;
+        gap: 20px;
+    }
+    .footer-logo {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
 
 }
