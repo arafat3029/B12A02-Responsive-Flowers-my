@@ -233,6 +233,13 @@ header {
    margin-bottom: 30px;
    border-radius: 10px;
 }
+h1 samp .noto-serif {}
+
+h4.Off-stylenoto-serif {
+    background: transparent;
+    color: #ffffff;
+    font-weight: 600;
+}
 
 /* join section */
 
