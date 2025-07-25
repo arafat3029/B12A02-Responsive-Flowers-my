@@ -143,6 +143,76 @@ header {
 .plants-lover-section img {
     width: 56.25rem;
 }
+/* plant photo section style */
+ .plant-photo-section {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   max-width: 1140px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+
+ }
+
+
+ .off-title {
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   background-color: transparent;
+ }
+
+ .plant-link {
+   color: white;
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center;
+   align-items: center;
+   background-color: transparent;
+ }
+
+ .Off-style {
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   background-color: transparent;
+ }
+
+ .plant-photo-title {
+   text-align: center;
+ }
+
+ .photo-1 {
+   background-image: url(assets/deal-bloom.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 367px;
+   padding: 50px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+
+ }
+
+ .photo-2 {
+   background-image: url(assets/deal-ana.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 367px;
+   padding: 50px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+ }
+
+ .photo-3 {
+   background-image: url(/assets/deal-zabo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 753px;
+   padding: 100px;
+   padding-top: 130px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+}
 
 /* join section */
 
@@ -228,6 +298,9 @@ footer .section-footer {
     .nav-section {
         max-width: 85%;
         margin: auto;
+
+        text-align: center;
+        align-items: center;
     }
 
     /* banner section */
@@ -282,6 +355,39 @@ footer .section-footer {
         display: flex;
         flex-direction: column;
         max-width: 85%;
+    }
+
+
+    /* latest deals */
+    section.plant-photo-section {
+        display: block;
+    }
+    .plant-photo-title.photo-3 {
+        max-width: 85%;
+        margin: auto;
+    }
+    .plant-photo-title.photo-1.photo-opacity {
+        max-width: 85%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .plant-photo-title.photo-2 {
+        max-width: 85%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .plant-photo-title.photo-3 {
+        max-width: 85%;
+        margin-top: 2rem;
+    }
+    h4.Off-style {
+        font-size: 16px;
+    }
+    .plant-photo-title.photo-3 {
+        width: 366px;
+        height: 230px;
     }
 
     /* Join section */
