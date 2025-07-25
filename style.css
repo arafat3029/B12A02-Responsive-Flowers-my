@@ -146,11 +146,12 @@ header {
 /* plant photo section style */
  .plant-photo-section {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    gap: 20px;
-   max-width: 1140px;
+   max-width: 1280px;
    margin: 0 auto;
    margin-bottom: 50px;
+   margin-top: 3rem;
 
  }
 
@@ -211,7 +212,7 @@ header {
    padding: 100px;
    padding-top: 130px;
    margin-bottom: 30px;
-   border-radius: 10px;
+   border-radius: 10px;
 }
 
 /* join section */
@@ -388,6 +389,7 @@ footer .section-footer {
     .plant-photo-title.photo-3 {
         width: 366px;
         height: 230px;
+        border-radius: 10px;
     }
 
     /* Join section */
