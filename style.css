@@ -204,7 +204,7 @@ header {
  }
 
  .photo-3 {
-   background-image: url(/assets/deal-zabo.png);
+   background-image: url(assets/deal-zabo.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 753px;
