@@ -120,3 +120,39 @@
 .plants-lover-section img {
     width: 56.25rem;
 }
+
+/* join section */
+.jone-parent {
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.sub-parent {
+    background: transparent;
+    padding: 250px;
+    text-align: center;
+}
+.sub-parent h1 {
+    font-size: 6rem;
+    background: transparent;
+}
+.sub-parent h1 input button {
+    background: transparent;
+}
+
+
+form {
+    display: flex;
+    margin: 4px 205px;
+}
+
+form input {
+    padding: 22px 571px 20px 62px;
+}
+.pr-btn {
+    color: #ffffff;
+    border: 2px solid #E95A08;
+    background-color: #E95A08;
+    padding: 20px 51px;
+}
