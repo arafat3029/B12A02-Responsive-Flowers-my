@@ -331,8 +331,9 @@ footer .section-footer {
         margin: auto;
     }
     .banner h1{
-        padding: 2rem;
+        padding: 4.5rem;
         font-size: xx-large;
+        padding-bottom: 5px;
     }
     .banner p {
         padding: 2rem;
@@ -346,11 +347,11 @@ footer .section-footer {
         margin: auto;
     }
     h1.noto-serif {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     samp.noto-serif {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .inter p {
         max-width: 85%;
@@ -376,8 +377,14 @@ footer .section-footer {
         flex-direction: column;
         max-width: 85%;
     }
-
-
+    /* Latest section */
+    section.Latest {
+        max-width: 85%;
+        margin: auto;
+    }
+    .latest-section h2 {
+        font-size: 52px;
+    }
     /* latest deals */
     section.plant-photo-section {
         display: block;
