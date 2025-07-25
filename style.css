@@ -143,6 +143,25 @@ header {
 .plants-lover-section img {
     width: 56.25rem;
 }
+/* Latest section */
+.latest-section {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 4rem;
+}
+.latest-section h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #E95A08;
+}
+.latest-section p {
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.50);
+}
+.sp-color {
+    color: #000000;
+}
 /* plant photo section style */
  .plant-photo-section {
    display: flex;
